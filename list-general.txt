@@ -295,9 +295,6 @@ stats.rustore.ru
 help.rustore.ru
 # Not secure
 maxmind.com
-rambler.ru
-r0.ru
-top100.rambler.ru
 www.maxmind.com
 # Mail Ru
 mail.ru
@@ -522,6 +519,9 @@ auto.yandex.ru
 # OZON
 ozon.ru
 www.ozon.ru
+ozon.by
+ozon.kz
+uz.ozon.com
 m.ozon.ru
 ozon-st.cdn.ngenig.net
 st.ozon.ru
@@ -850,3 +850,57 @@ secrets.tbank.ru
 partners.tbank.ru
 promokod.tbank.ru
 t-technologies.ru
+# Rambler
+top100.rambler.ru
+rambler.ru
+auth.rambler.ru
+cdn-s01.rambler.ru
+cdn-store.rambler.ru
+cpa-elements.rambler.ru
+embeds.rambler.ru
+id.rambler.ru
+news.store.rambler.ru
+rcmjs.rambler.ru
+s1.eda.ru
+ssp.rambler.ru
+st.top100.ru
+static.rambler.ru
+store.rambler.ru
+traffgen.rambler.ru
+sync.rambler.ru
+www.tns-counter.ru
+traffgen.rambler.ru
+www.rambler.ru
+news.rambler.ru
+finance.rambler.ru
+family.rambler.ru
+eda.rambler.ru
+doctor.rambler.ru
+weekend.rambler.ru
+sport.rambler.ru
+auto.rambler.ru
+sci.rambler.ru
+life.rambler.ru
+horoscopes.rambler.ru
+mail.rambler.ru
+r0.ru
+weather.rambler.ru
+tv.rambler.ru
+soft.rambler.ru
+brand.rambler.ru
+help.rambler.ru
+kino.rambler.ru
+m.dating.rambler.ru
+travel.rambler.ru
+woman.rambler.ru
+we.rambler.ru
+map-news.rambler.ru
+lenta.ru
+vp.rambler.ru
+gazeta.ru
+championat.com
+afisha.ru
+www.afisha.ru
+quto.ru
+www.livejournal.com
+status.livejournal.com
