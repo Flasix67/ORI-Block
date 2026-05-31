@@ -226,6 +226,9 @@ ourcdn-ext.prod.yb.yandex.net
 report.appmetrica.yandex.net
 mobile.yandexadexchange.net
 books.yandex.ru
+statad.ru
+awaps.statad.ru
+oauth.yandex.ru
 # VK
 vk.com
 vk.ru
@@ -274,6 +277,7 @@ vk-stat.ru
 vk.company
 marusia.vk.com
 vk-portal.net
+oauth.vk.ru
 # MAX
 max.ru
 web.max.ru
@@ -369,6 +373,8 @@ pets.mail.ru
 capsula.mail.ru
 o2.mail.ru
 ad.mail.ru
+my1.imgsmail.ru
+connect.mail.ru
 # OK
 ok.ru
 m.ok.ru
@@ -383,6 +389,8 @@ tv.ok.ru
 dating.ok.ru
 mobapps.ok.ru
 apiok.ru
+st-ok.cdn-vk.ru
+connect.ok.ru
 # Avito
 avito.ru
 m.avito.ru
@@ -904,3 +912,49 @@ www.afisha.ru
 quto.ru
 www.livejournal.com
 status.livejournal.com
+# Единая Россия(пидоры)
+pg.er.ru
+er.ru
+chelyabinsk.er.ru
+wp.er.ru
+moscow.er.ru
+естьрезультат.рф
+# Кинопоиск
+www.kinopoisk.ru
+hd.kinopoisk.ru
+# Mamba
+www.mamba.ru
+mamba.rustatad.ru
+static.wmbcdn.com
+mamba.ru
+help.mamba.ru
+photo1.wambacdn.net
+photo2.wambacdn.net
+photo3.wambacdn.net
+photo4.wambacdn.net
+photo5.wambacdn.net
+photo6.wambacdn.net
+photo7.wambacdn.net
+photo8.wambacdn.net
+photo9.wambacdn.net
+photo10.wambacdn.net
+ad.adriver.ru
+# Loveplanet
+pics.loveplanet.ru
+m.loveplanet.ru
+loveplanet.ru
+# ЯПлакалъ
+s00.yaplakal.com
+s01.yapfiles.ru
+s02.yapfiles.ru
+s3.wi-fi.ru
+www.yapfiles.ru
+api.yapfiles.ru
+art.yaplakal.com
+incubator.yaplakal.com
+pics.yaplakal.com
+www.yaplakal.com
+yaplakal.com
+# SuperJob
+public.superjob.ru
+t.superjob.ru
