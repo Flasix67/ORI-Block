@@ -25,7 +25,7 @@ cp "$HOSTS" "$TEMP_HOSTS"
 
 while IFS= read -r line || [ -n "$line" ]; do
     [[ "$line" =~ ^[[:space:]]*# ]] && continue
-    domain="$(echo "$line" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
+    domain="$(echo "$line" | xargs)"
     [ -z "$domain" ] && continue
     
     escaped=$(echo "$domain" | sed 's/\./\\./g')
@@ -34,7 +34,7 @@ while IFS= read -r line || [ -n "$line" ]; do
 done < "$LIST"
 
 if [ -s "$PATTERNS" ]; then
-    grep -v -E -f "$PATTERNS" "$TEMP_HOSTS" > "${TEMP_HOSTS}.new" 2>/dev/null || cp "$TEMP_HOSTS" "${TEMP_HOSTS}.new"
+    grep -v -E -f "$PATTERNS" "$TEMP_HOSTS" > "${TEMP_HOSTS}.new"
     mv "${TEMP_HOSTS}.new" "$TEMP_HOSTS"
 fi
 
