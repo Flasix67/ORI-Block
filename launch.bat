@@ -32,7 +32,7 @@ for /f "usebackq eol=# delims=" %%a in ("%LIST%") do (
 
 ipconfig /flushdns >nul 2>&1
 
-echo Danger domains is blocked now.
+echo ORI-Block enabled!
 echo [+] Blocked domains: !COUNT!
 timeout /t 2 >nul
 exit /b

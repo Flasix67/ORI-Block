@@ -33,6 +33,6 @@ del /f /q "%TEMP%.2" "%TEMP%" >nul 2>&1
 
 :FLUSH
 ipconfig /flushdns >nul 2>&1
-echo [+] Домены разблокированы. Перезапустите браузер.
+echo [+] ORI-Block disabled!
 timeout /t 2 >nul
 exit /b
