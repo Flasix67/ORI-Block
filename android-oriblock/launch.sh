@@ -9,7 +9,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LIST="$SCRIPT_DIR/list-general.txt"
 
 if [ ! -f "$LIST" ]; then
-    echo "[!] list-general.txt не найден в: $SCRIPT_DIR"
+    echo "[!] list-general.txt not found in: $SCRIPT_DIR"
     exit 1
 fi
 
