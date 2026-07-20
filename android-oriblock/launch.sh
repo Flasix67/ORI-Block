@@ -15,29 +15,19 @@ fi
 
 COUNT=0
 while IFS= read -r line || [ -n "$line" ]; do
-    # Пропуск комментариев (#) и пустых строк
     [[ "$line" =~ ^[[:space:]]*# ]] && continue
     [[ -z "${line// }" ]] && continue
-    
-    # Trim пробелов
     domain="$(echo "$line" | xargs)"
     [ -z "$domain" ] && continue
     
-    # Проверка, есть ли уже запись
     if ! grep -qF "127.0.0.1 $domain" "$HOSTS"; then
         echo "127.0.0.1 $domain" >> "$HOSTS"
-        # Если нужно блокировать и www:
         # grep -qF "127.0.0.1 www.$domain" "$HOSTS" || echo "127.0.0.1 www.$domain" >> "$HOSTS"
         ((COUNT++))
     fi
 done < "$LIST"
 
-# Очистка DNS-кеша (опционально, зависит от системы)
-# systemd-resolve --flush-caches 2>/dev/null || true
-# nscd -i hosts 2>/dev/null || true
-# В Termux без root DNS-кеш обычно не кэшируется системно
-
-echo "✓ Опасные домены заблокированы."
-echo "[+] Добавлено записей: $COUNT"
+echo "ORI-Block enabled"
+echo "[+] Blocked domains: $COUNT"
 sleep 2
 exit 0
